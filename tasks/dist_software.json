@@ -1,0 +1,23 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": false,
+  "description": "A short description of this task",
+  "parameters": {
+    "parent_version": {
+      "description":"Major version 18 or 19",
+      "type": "Integer"	
+    },
+    "dru_zipfile": {
+      "description": "Software zipfile name",
+      "type": "String[1]"
+    },
+    "dbr_number": {
+      "description": "Database Release number eg: 189000",
+      "type": "Integer"
+    },
+    "patch_number": {
+      "description": "Patch number combo OJVM and DB Release update",
+      "type": "Integer"
+    }
+  }
+}
